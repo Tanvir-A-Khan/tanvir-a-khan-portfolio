@@ -1,5 +1,4 @@
 import ProgressBar from "./components/ProgressBar";
-import avatar from '../../src/resources/Tanvir.jpg'
 export default function Home() {
   return (
     <div className="h-[1000px] flex justify-center">
