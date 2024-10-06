@@ -8,13 +8,11 @@ export default function Home() {
         {/* The main secotion start here */}
         <div className="rounded-3xl *:rounded-3xl  bg-white text-stone-950 border-2 border-white flex ">
           {/* Left Segment */}
-          <div className="*:rounded-3xl flex flex-grow-0 *:m-5 ">
+          <div className="*:rounded-3xl flex flex-grow-0 *:mt-5 *:ms-5 ">
             {/* Image */}
-            <div className="h-48 w-48 bg-gray-200  font-bold hover:bg-green-400 hover:text-white transition-all ease-in-out hover:cursor-default">
-            <img src="/resources/Tanvir.jpg" alt="avatar" className="rounded-3xl" width={192} height={192} />
-            </div>
+            <img src="/resources/Tanvir.jpg" alt="avatar" className="rounded-3xl  grayscale hover:grayscale transition-all" width={250} height={100} />
             {/* Intro */}
-            <div className="h-48 w-48 m-5 p-5 bg-gray-200 font-bold hover:bg-green-400 hover:text-white transition-all hover:cursor-default">
+            <div className="h-48 w-48 p-5 bg-gray-200 font-bold hover:bg-green-400 hover:text-white transition-all hover:cursor-default">
               <p className="text-xl mb-6">Hello 👋 I'm </p>
               <p className="text-2xl">Tanvir Ahmed Khan</p>
               <p className="font-thin text-sm">Software Engineer / Software Developer</p>
